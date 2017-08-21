@@ -2,7 +2,7 @@
 
 ## Set to the Hutch's repo
 r = getOption("repos")
-r["CRAN"] = "https://cran.fhcrc.org/"
+r["CRAN"] = "https://cran.cnr.berkeley.edu/"
 options(repos = r)
 rm(r)
 
