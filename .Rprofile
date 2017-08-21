@@ -98,9 +98,9 @@ rm("exit", "lopa", "install.bioc", "nicepairs", "tic", "toc")
   #  library(xtable)
   #  library(knitr)
   #}
-  cat("\nOrale! It's", format(Sys.time(), "%A, %B %d, %Y at %X"), "\n\n")
+  cat("\nOrale! It's", format(Sys.time(), "%A, %B %d, %Y at %X", usetz = T), "\n\n")
 }
 
 .Last = function(){
-  cat("\nLaters! It's", format(Sys.time(), "%A, %B %d, %Y at %X"), "\n")
+  cat("\nLaters! It's", format(Sys.time(), "%A, %B %d, %Y at %X", usetz = T), "\n")
 }
